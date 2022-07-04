@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <table class="table">
+            <caption class="table_header">Contacts</caption>
+            <thead class="table_inputs">
+                <form class="list-form">
+                    <tr class="table_filling-form">
+                        <th class="form">
+                            <input type="text" name="firstName" id="nameInput" class="form_input" placeholder="Name">
+                        </th>
+                        <th class="form">
+                            <input type="text" name="lastName" id="surnameInput" class="form_input"
+                                placeholder="Surname">
+                        </th>
+                        <th class="form">
+                            <input type="text" name="phone" id="phoneInput" class="form_input" placeholder="Phone">
+                        </th>
+                        <th class="form">
+                            <button type="submit" id="addContact" class="form_btn">Add</button>
+                        </th>
+                    </tr>
+                </form>
+            </thead>
+            <tbody class="table_contacts" id="contactList"></tbody>
+        </table>
+    </div>
+</body>
+
+</html>

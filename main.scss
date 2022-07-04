@@ -1,0 +1,74 @@
+@import './reset';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F2F0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    &_header {
+        min-height: 120px;
+        padding-top: 40px;
+        font-size: 50px;
+    }
+}
+
+.form {
+    &_input {
+        outline: none;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        border-radius: 4px;
+        border: 1px solid #000C40;
+        padding: 6px 34px 6px 10px;
+        margin: 10px;
+    }
+
+    &_btn {
+        height: 34px;
+        width: 150px;
+        font-size: inherit;
+        line-height: inherit;
+        border-radius: 4px;
+        border: 1px solid #000C40;
+        cursor: pointer;
+        transition: background-color 0.15s ease-in;
+
+        &:hover {
+            background-color: #000C40;
+            color: #F0F2F0;
+        }
+    }
+}
+
+.table_contact {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.deleteContact {
+    margin-bottom: 7px;
+    height: 34px;
+    width: 150px;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 4px;
+    border: 1px solid #000C40;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in;
+
+    &:hover {
+        background-color: #8E0E00;
+        color: #F0F2F0;
+    }
+}
